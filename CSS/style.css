@@ -1,0 +1,53 @@
+.section-1{
+    background-image: url("../JS/city_1.jpg");
+    padding-bottom: 300px;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.section-1::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px; /* Высота туманной области */
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+
+}
+
+.section-1 .info{
+    border: 1px solid black;
+    color: black;
+    transition: ease-in-out 0.3s;
+    padding: 15px 0;
+}
+
+.section-1 .info a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    transition: ease-in-out 0.2s;
+}
+
+.section-1 .info:hover{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.section-1 .info a:hover{
+    color: white;
+}
+
+.section-1 h1{
+    color: #fff;
+    margin-top: 150px;
+    margin-bottom: 0;
+    font-size: 45px;
+    padding: 25px 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
