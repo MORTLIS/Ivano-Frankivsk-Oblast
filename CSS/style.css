@@ -1,3 +1,7 @@
+body{
+    background-color: #f3f3f3;
+}
+
 .section-1{
     background-image: url("../img/city_1.jpg");
     padding-bottom: 300px;
@@ -50,4 +54,40 @@
     font-size: 45px;
     padding: 25px 15px;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.history{
+    position: relative;
+    top: -120px;
+}
+
+.ARXETEKT img{
+    width: 300px;
+    height: 250px;
+    margin-left: 25%;
+}
+
+.popular .FAMOUS_PERSONS h3{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 0.9em;
+    margin: 5px 0px;
+    color: #4c5867;
+}
+
+.popular .FAMOUS_PERSONS p{
+    font-size: 14px;
+    color: #4c5867;
+}
+
+.popular .FAMOUS_PERSONS img{
+    width: 234px;
+    height: 234px;
+    border-radius: 50%;
+    border: 7px solid #eee;
+    transition: ease-in-out 0.2s;
+}
+
+.popular .FAMOUS_PERSONS img:hover{
+    border: 7px solid #08f;
 }
