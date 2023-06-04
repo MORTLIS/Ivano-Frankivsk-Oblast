@@ -91,3 +91,9 @@ body{
 .popular .FAMOUS_PERSONS img:hover{
     border: 7px solid #08f;
 }
+
+.kultura img{
+    width: 250px;
+    height: 200px;
+    margin-left: 25%;
+}
